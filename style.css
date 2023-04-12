@@ -10,20 +10,17 @@
 
 body{
     background-color: #42884F;
-    width: 100%;
-}
-main{
-    margin: 2rem;
-   
+    margin: 2rem 5rem;
 }
 
-.profilePic{
-    width: 100%;
-}
 
 #mainInfo{
     display: flex;
     width: 100%;
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #mainInfo img{
@@ -34,28 +31,28 @@ max-width: 100%;
 }
 
 #contactInfo{
-    margin: 1rem;
-    width: 100%;
-    margin-top: 5rem;
+    margin-left: 1rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 #contactInfo h1{
     font-family: 'Cooper';
     color: #FCD957;
     letter-spacing: 1px;
-    font-size: 5em;
+    font-size: 70px;
 }
 
-h2{
+#contactInfo h2{
     font-family: 'Cooper';
     color: white;
     letter-spacing: 1px;
     font-size: 50px;
 }
 
-@media only screen and (max-width: 1085px) {
+@media only screen and (max-width: 1130px) {
     body{
         display: flex;
         flex-direction: column;
@@ -70,8 +67,21 @@ h2{
         align-items: center;
     }
 
+    #mainInfo img{
+        margin-bottom: 30px;
+    }
+
     #contactInfo{
         text-align: center;
     }
 
+  }
+
+  @media only screen and (max-width: 734px) {
+    #contactInfo h1{
+    font-size: 48px;
+    }
+    #contactInfo h2{
+        font-size: 24px;
+    }
   }
