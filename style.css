@@ -98,6 +98,7 @@ body {
 }
 
 .sectionDisplay {
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
   font-family: "Cooper";
