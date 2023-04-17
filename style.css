@@ -1,173 +1,167 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 @font-face {
-    font-family: Cooper;
-    src: url(/media/Cooper\ Black\ Regular.ttf);
+  font-family: Cooper;
+  src: url(/media/Cooper\ Black\ Regular.ttf);
 }
-#yellowStripe{
-    position: fixed;
-    background-color: #FCD957;
-    top: 0;
-    left: 0;
-    width: 3rem;
-    height: 100vh;
-    display: flex;
-}
-
-a{
-    text-decoration: none;
-    color: white;
-    
+#yellowStripe {
+  position: fixed;
+  background-color: #fcd957;
+  top: 0;
+  left: 0;
+  width: 3rem;
+  height: 100vh;
+  display: flex;
 }
 
-
-body{
-    background-color: #42884F;
-    margin: 2rem 5rem;
+a {
+  text-decoration: none;
+  color: white;
 }
 
-#socials{
-    display: flex;
-    max-width: 100%;
-    width: 220px;
-    margin-top: 30px;
-    text-decoration: none;
-    justify-content: space-between;
+body {
+  background-color: #42884f;
+  margin: 2rem 5rem;
 }
 
-#mainInfo{
-    width: 100%;
-    align-items: flex-start;
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-    height: 80vh;
+#socials {
+  display: flex;
+  max-width: 100%;
+  width: 220px;
+  margin-top: 30px;
+  text-decoration: none;
+  justify-content: space-between;
 }
 
-#profilePic{
-max-height: 400px;
-margin: 30px;
-border-radius: 30px;
-max-width: 100%;
+#mainInfo {
+  width: 100%;
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  height: 60vh;
 }
 
-#contactInfo{
-    margin-top: 100px;
-    margin-left: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+#profilePic {
+  max-height: 400px;
+  margin: 30px;
+  border-radius: 30px;
+  max-width: 100%;
 }
 
-#contactInfo h1{
-    font-family: 'Cooper';
-    color: #FCD957;
-    letter-spacing: 1px;
-    font-size: 70px;
+#contactInfo {
+  margin-top: 100px;
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-#contactInfo h2{
-    font-family: 'Cooper';
-    color: white;
-    letter-spacing: 1px;
-    font-size: 50px;
+#contactInfo h1 {
+  font-family: "Cooper";
+  color: #fcd957;
+  letter-spacing: 1px;
+  font-size: 70px;
 }
 
-.sectionDisplay h3{
-    font-family: 'Cooper';
-    color: white;
-    letter-spacing: 1px;
-    font-size: 50px;
-    text-align: center;
-    margin-top: 40px;
+#contactInfo h2 {
+  font-family: "Cooper";
+  color: white;
+  letter-spacing: 1px;
+  font-size: 50px;
 }
 
-.sectionDisplay img{
-    margin: 10px;
-    max-width: 100%;
-    max-height: 300px;
-    border: solid white 3px;
-    border-radius: 20px;
-    box-shadow: 10px 5px 5px black;
+.sectionDisplay h3 {
+  font-family: "Cooper";
+  color: white;
+  letter-spacing: 1px;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 40px;
 }
 
-.sectionDisplay{
-    display: flex;
-    flex-direction: column;
-    font-family: 'Cooper';
-    text-align: center;
-    max-width: 100%;
-    margin-bottom: 200px;
-    align-items: center;
+.sectionDisplay img {
+  margin: 10px;
+  max-width: 100%;
+  max-height: 300px;
+  border: solid white 3px;
+  border-radius: 20px;
+  box-shadow: 10px 5px 5px black;
 }
 
-.sectionDisplay figcaption{
-margin-top: 10px;
-color: white;
+.sectionDisplay {
+  display: flex;
+  flex-direction: column;
+  font-family: "Cooper";
+  text-align: center;
+  max-width: 100%;
+  margin-bottom: 100px;
+  align-items: center;
 }
 
-.displayTiles{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    max-width: 1200px;
-    width: 100%;
-
+.sectionDisplay figcaption {
+  margin-top: 10px;
+  color: white;
 }
 
-.projectTile{
-    margin-top: 20px;
-    padding: 0 5px;
+.displayTiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
 }
 
+.projectTile {
+  margin-top: 20px;
+  padding: 0 5px;
+}
 
 @media only screen and (max-width: 1130px) {
-    body{
-        display: flex;
-        flex-direction: column;
-       
-    }
-    main{
-        margin: 2rem;
-    }
-
-    #mainInfo{
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #mainInfo img{
-        margin-bottom: 30px;
-    }
-
-    #contactInfo{
-        text-align: center;
-    }
-
-    .displayTiles{
-        flex-direction: column;
-    }
-
-    .sectionDisplay figcaption{
-        margin-top: 5px;
-        }
-
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  main {
+    margin: 2rem;
   }
 
-  @media only screen and (max-width: 734px) {
-    #contactInfo h1{
+  #mainInfo {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #mainInfo img {
+    margin-bottom: 30px;
+  }
+
+  #contactInfo {
+    text-align: center;
+  }
+
+  .displayTiles {
+    flex-direction: column;
+  }
+
+  .sectionDisplay figcaption {
+    margin-top: 5px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+  #contactInfo h1 {
     font-size: 48px;
-    }
-    #contactInfo h2{
-        font-size: 24px;
-    }
-
-    .sectionDisplay h3{
-        font-size: 24px;
-    }
   }
+  #contactInfo h2 {
+    font-size: 24px;
+  }
+
+  .sectionDisplay h3 {
+    font-size: 24px;
+  }
+}
