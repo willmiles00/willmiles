@@ -39,12 +39,12 @@ body{
 }
 
 #mainInfo{
-    display: flex;
     width: 100%;
     align-items: flex-start;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
+    height: 80vh;
 }
 
 #profilePic{
@@ -55,6 +55,7 @@ max-width: 100%;
 }
 
 #contactInfo{
+    margin-top: 100px;
     margin-left: 1rem;
     display: flex;
     flex-direction: column;
@@ -95,10 +96,13 @@ max-width: 100%;
 }
 
 .sectionDisplay{
+    display: flex;
+    flex-direction: column;
     font-family: 'Cooper';
-    
     text-align: center;
-    width: 100%;
+    max-width: 100%;
+    margin-bottom: 200px;
+    align-items: center;
 }
 
 .sectionDisplay figcaption{
@@ -110,8 +114,9 @@ color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 100%;
-    
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
 
 }
 
