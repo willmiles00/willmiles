@@ -8,16 +8,18 @@
     src: url(/media/Cooper\ Black\ Regular.ttf);
 }
 
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
 body{
     background-color: #42884F;
     margin: 2rem 5rem;
 }
 
-#yellowstripe{
-    width: 50px;
-    height: screen;
-    background-color: #FCD957;
-}
 
 #mainInfo{
     display: flex;
@@ -79,7 +81,7 @@ max-width: 100%;
     font-family: 'Cooper';
     color: white;
     text-align: center;
-    
+    width: 100%;
 }
 
 .sectionDisplay figcaption{
@@ -88,8 +90,15 @@ margin-top: 10px;
 
 .displayTiles{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    max-width: 100%;
 }
+
+.projectTile{
+    margin-top: 20px;
+}
+
 
 @media only screen and (max-width: 1130px) {
     body{
