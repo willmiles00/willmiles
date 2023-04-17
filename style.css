@@ -52,6 +52,40 @@ max-width: 100%;
     font-size: 50px;
 }
 
+.sectionDisplay h3{
+    font-family: 'Cooper';
+    color: #FCD957;
+    letter-spacing: 1px;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.sectionDisplay img{
+    margin: 10px;
+    max-width: 100%;
+    max-height: 300px;
+    border: solid white 3px;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px black;
+}
+
+.sectionDisplay{
+    font-family: 'Cooper';
+    color: white;
+    text-align: center;
+    
+}
+
+.sectionDisplay figcaption{
+margin-top: 10px;
+}
+
+.displayTiles{
+    display: flex;
+    justify-content: center;
+}
+
 @media only screen and (max-width: 1130px) {
     body{
         display: flex;
@@ -75,6 +109,14 @@ max-width: 100%;
         text-align: center;
     }
 
+    .displayTiles{
+        flex-direction: column;
+    }
+
+    .sectionDisplay figcaption{
+        margin-top: 5px;
+        }
+
   }
 
   @media only screen and (max-width: 734px) {
@@ -82,6 +124,10 @@ max-width: 100%;
     font-size: 48px;
     }
     #contactInfo h2{
+        font-size: 24px;
+    }
+
+    .sectionDisplay h3{
         font-size: 24px;
     }
   }
