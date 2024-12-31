@@ -1,1 +1,1 @@
-<h1>william miles</h1>
+<h1>william miles</h1>npm install --save-dev svelte-adapter-ghpages
